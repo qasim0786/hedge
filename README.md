@@ -1,6 +1,6 @@
 # Hedge
 
-Hedge is a free Mac app from [Technospike](https://technospike.com/). It measures caches, logs, and developer leftovers, then moves what you select into the Trash. It also shows memory, temperature, and a few security switches.
+Hedge is a free Mac app from [Technospike](https://techno-spike.com/). It measures caches, logs, and developer leftovers, then moves what you select into the Trash. It also shows memory, temperature, and a few security switches.
 
 Hedge does not upload a scan, and it does not collect an account.
 
@@ -70,7 +70,7 @@ Send Pakistani rupees to one of these personal accounts. Copy the account title 
 
 Inside the app, **Donate** in the sidebar, or **Support > Donate**, shows these accounts. You can also write to info@technospike.com.
 
-Guides for Hedge will live on [technospike.com](https://techno-spike.com/) and on Technospike’s YouTube channel, so people can find the app and see it in use.
+Guides for Hedge will live on [techno-spike.com](https://techno-spike.com/) and on Technospike’s YouTube channel, so people can find the app and see it in use.
 
 ## What a trim will not touch
 
