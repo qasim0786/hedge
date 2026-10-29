@@ -68,7 +68,7 @@ Send Pakistani rupees to one of these personal accounts. Copy the account title 
 | IBAN | PK69JSBL9999903145098262 |
 | SWIFT | JSBLPKKA |
 
-Inside the app, **Donate** in the sidebar, or **Support > Donate**, shows these accounts. You can also write to info@technospike.com.
+Inside the app, **Donate** in the sidebar, or **Support > Donate**, shows these accounts. You can also write to qasim@techno-spike.com.
 
 Guides for Hedge will live on [techno-spike.com](https://techno-spike.com/) and on Technospike’s YouTube channel, so people can find the app and see it in use.
 

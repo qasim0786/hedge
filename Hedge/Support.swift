@@ -4,7 +4,7 @@ import SwiftUI
 enum Support {
     static let studio = "Technospike IT Solutions"
     static let site = URL(string: "https://techno-spike.com/")!
-    static let mail = "info@technospike.com"
+    static let mail = "qasim@techno-spike.com"
     static let phone = "+91 84277 22113"
     static let address = "Plot No. 1301, Sector 82, JLPL Industrial Area, Mohali, Punjab"
 
