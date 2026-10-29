@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000021 /* HedgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* HedgeApp.swift */; };
+		A10000000000000000000022 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Theme.swift */; };
+		A10000000000000000000023 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* Models.swift */; };
+		A10000000000000000000024 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* Engine.swift */; };
+		A10000000000000000000025 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* AppModel.swift */; };
+		A10000000000000000000026 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* RootView.swift */; };
+		A10000000000000000000027 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* OverviewView.swift */; };
+		A10000000000000000000028 /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* HealthView.swift */; };
+		A10000000000000000000029 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* ActivityView.swift */; };
+		A1000000000000000000002A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* Assets.xcassets */; };
+		A1000000000000000000002B /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* Access.swift */; };
+		A1000000000000000000002C /* Probes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C /* Probes.swift */; };
+		A1000000000000000000002D /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D /* SecurityView.swift */; };
+		A1000000000000000000002E /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001E /* MemoryView.swift */; };
+		A1000000000000000000002F /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001F /* TemperatureView.swift */; };
+		A10000000000000000000037 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000035 /* Support.swift */; };
+		A10000000000000000000034 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000031 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* Hedge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hedge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000011 /* HedgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HedgeApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000000000000000000001B /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		A1000000000000000000001C /* Probes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Probes.swift; sourceTree = "<group>"; };
+		A1000000000000000000001D /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001E /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001F /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
+		A10000000000000000000035 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		A10000000000000000000031 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A10000000000000000000032 /* Hedge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hedge.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000033 /* Hedge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hedge-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000030 /* Hedge */,
+				A10000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* Hedge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000030 /* Hedge */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* HedgeApp.swift */,
+				A10000000000000000000012 /* Theme.swift */,
+				A10000000000000000000013 /* Models.swift */,
+				A10000000000000000000014 /* Engine.swift */,
+				A1000000000000000000001B /* Access.swift */,
+				A1000000000000000000001C /* Probes.swift */,
+				A10000000000000000000035 /* Support.swift */,
+				A10000000000000000000015 /* AppModel.swift */,
+				A10000000000000000000016 /* RootView.swift */,
+				A10000000000000000000017 /* OverviewView.swift */,
+				A10000000000000000000018 /* HealthView.swift */,
+				A1000000000000000000001E /* MemoryView.swift */,
+				A1000000000000000000001F /* TemperatureView.swift */,
+				A1000000000000000000001D /* SecurityView.swift */,
+				A10000000000000000000019 /* ActivityView.swift */,
+				A10000000000000000000033 /* Hedge-Bridging-Header.h */,
+				A10000000000000000000032 /* Hedge.entitlements */,
+				A10000000000000000000031 /* PrivacyInfo.xcprivacy */,
+				A1000000000000000000001A /* Assets.xcassets */,
+			);
+			path = Hedge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000006 /* Hedge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000007 /* Build configuration list for PBXNativeTarget "Hedge" */;
+			buildPhases = (
+				A10000000000000000000008 /* Sources */,
+				A10000000000000000000003 /* Frameworks */,
+				A10000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hedge;
+			productName = Hedge;
+			productReference = A10000000000000000000001 /* Hedge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000000000000000000000A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000000000000000000006 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000000000000000000000B /* Build configuration list for PBXProject "Hedge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000004;
+			productRefGroup = A10000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000006 /* Hedge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000002A /* Assets.xcassets in Resources */,
+				A10000000000000000000034 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000021 /* HedgeApp.swift in Sources */,
+				A10000000000000000000022 /* Theme.swift in Sources */,
+				A10000000000000000000023 /* Models.swift in Sources */,
+				A10000000000000000000024 /* Engine.swift in Sources */,
+				A10000000000000000000025 /* AppModel.swift in Sources */,
+				A10000000000000000000026 /* RootView.swift in Sources */,
+				A10000000000000000000027 /* OverviewView.swift in Sources */,
+				A10000000000000000000028 /* HealthView.swift in Sources */,
+				A10000000000000000000029 /* ActivityView.swift in Sources */,
+				A1000000000000000000002B /* Access.swift in Sources */,
+				A1000000000000000000002C /* Probes.swift in Sources */,
+				A1000000000000000000002D /* SecurityView.swift in Sources */,
+				A1000000000000000000002E /* MemoryView.swift in Sources */,
+				A1000000000000000000002F /* TemperatureView.swift in Sources */,
+				A10000000000000000000037 /* Support.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Debug;
+		};
+		A1000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Release;
+		};
+		A1000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hedge/Hedge.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hedge;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Hedge asks the apps you select to quit, so the memory they were using can return to the system.";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Hedge. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hedge.mac;
+				SWIFT_OBJC_BRIDGING_HEADER = Hedge/Hedge-Bridging-Header.h;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hedge/Hedge.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hedge;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Hedge asks the apps you select to quit, so the memory they were using can return to the system.";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Hedge. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.hedge.mac;
+				SWIFT_OBJC_BRIDGING_HEADER = Hedge/Hedge-Bridging-Header.h;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000007 /* Build configuration list for PBXNativeTarget "Hedge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000E /* Debug */,
+				A1000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000B /* Build configuration list for PBXProject "Hedge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000000C /* Debug */,
+				A1000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000000000000000000000A /* Project object */;
+}
