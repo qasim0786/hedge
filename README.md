@@ -6,15 +6,21 @@ Hedge does not upload a scan, and it does not collect an account.
 
 ## Install
 
-You need a Mac on macOS 14 or later, and Xcode from the Mac App Store.
+You need a Mac on macOS 14 or later.
 
-1. Clone this repository.
-2. Open `Hedge.xcodeproj`.
-3. Choose the Hedge scheme and press Run.
-4. The first time Hedge opens, click **Choose Home Folder** and select the folder named for your account (the one that contains Desktop, Documents, and Library). macOS asks because Hedge is sandboxed. Nothing is deleted during that step.
-5. To keep Hedge after you quit Xcode, choose **Product > Show Build Folder in Finder**, open the Products folder, and copy `Hedge.app` to Applications.
+**One command.** This downloads Hedge and puts it in Applications:
 
-On another Mac, Gatekeeper may say the app is from an unidentified developer. Right-click `Hedge.app`, choose **Open**, then **Open** again.
+```bash
+curl -fsSL https://raw.githubusercontent.com/qasim0786/hedge/main/install.sh | bash
+```
+
+**Disk image.** Download [Hedge.dmg](https://github.com/qasim0786/hedge/releases/latest) from Releases, open it, and drag Hedge onto Applications.
+
+The first time Hedge opens, click **Choose Home Folder** and select the folder named for your account (the one that contains Desktop, Documents, and Library). macOS asks because Hedge is sandboxed. Nothing is deleted during that step.
+
+macOS may say the developer cannot be verified. Right-click `Hedge.app`, choose **Open**, then **Open** again.
+
+To build the disk image yourself, run `scripts/make-dmg.sh`. That needs Xcode. Opening `Hedge.xcodeproj` and pressing Run still works if you want to stay in Xcode.
 
 ## Use
 
